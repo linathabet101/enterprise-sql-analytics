@@ -1,0 +1,36 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Database backups and local database files
+*.dump
+*.backup
+*.sql.gz
+*.db
+*.sqlite
+*.sqlite3
