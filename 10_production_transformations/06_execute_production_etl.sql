@@ -1,0 +1,1 @@
+CALL warehouse.run_production_etl();

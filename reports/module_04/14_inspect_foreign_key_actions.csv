@@ -1,0 +1,2 @@
+﻿constraint_schema,constraint_name,unique_constraint_schema,unique_constraint_name,match_option,update_rule,delete_rule
+public,fk_policies_customers,public,pk_customers,NONE,NO ACTION,NO ACTION

@@ -1,0 +1,4 @@
+﻿dimension_candidate,source_records,distinct_business_keys
+CUSTOMER,6,6
+POLICY STATUS,10,3
+POLICY TYPE,10,4

@@ -35,3 +35,53 @@ module_id,module_name,sql_file,execution_mode,export_results,description
 03,Advanced SQL,03_advanced_sql/16_top_policy_per_customer.sql,read_only,true,Identify the highest-premium policy per customer
 03,Advanced SQL,03_advanced_sql/17_policy_date_gaps.sql,read_only,true,Analyze gaps between policy dates
 03,Advanced SQL,03_advanced_sql/18_integrated_customer_analysis.sql,read_only,true,Combine advanced SQL techniques in a customer analysis
+04,Understanding Existing Data Models,04_existing_data_models/01_inventory_public_tables.sql,read_only,true,Inventory tables and views in the public schema
+04,Understanding Existing Data Models,04_existing_data_models/02_inspect_all_table_columns.sql,read_only,true,Inspect columns and data types across existing tables
+04,Understanding Existing Data Models,04_existing_data_models/03_inspect_all_constraints.sql,read_only,true,Inventory existing database constraints
+04,Understanding Existing Data Models,04_existing_data_models/04_identify_primary_and_unique_keys.sql,read_only,true,Identify primary and unique keys
+04,Understanding Existing Data Models,04_existing_data_models/05_map_foreign_key_relationships.sql,read_only,true,Map foreign key relationships
+04,Understanding Existing Data Models,04_existing_data_models/06_inspect_check_constraints.sql,read_only,true,Inspect database check constraints
+04,Understanding Existing Data Models,04_existing_data_models/07_inspect_indexes.sql,read_only,true,Inventory database indexes
+04,Understanding Existing Data Models,04_existing_data_models/08_inspect_identity_and_default_columns.sql,read_only,true,Inspect identity columns and default values
+04,Understanding Existing Data Models,04_existing_data_models/09_estimate_table_row_counts.sql,read_only,true,Inspect estimated table row counts
+04,Understanding Existing Data Models,04_existing_data_models/10_inspect_table_storage.sql,read_only,true,Inspect table and index storage sizes
+04,Understanding Existing Data Models,04_existing_data_models/11_inventory_existing_views.sql,read_only,true,Inventory existing views
+04,Understanding Existing Data Models,04_existing_data_models/12_inventory_existing_routines.sql,read_only,true,Inventory existing functions and procedures
+04,Understanding Existing Data Models,04_existing_data_models/13_inspect_view_dependencies.sql,read_only,true,Inspect dependencies between views and database objects
+04,Understanding Existing Data Models,04_existing_data_models/14_inspect_foreign_key_actions.sql,read_only,true,Inspect foreign key update and delete actions
+04,Understanding Existing Data Models,04_existing_data_models/15_profile_customer_data.sql,read_only,true,Profile customer data completeness and distribution
+04,Understanding Existing Data Models,04_existing_data_models/16_profile_policy_data.sql,read_only,true,Profile insurance policy data
+04,Understanding Existing Data Models,04_existing_data_models/17_analyze_policy_status_distribution.sql,read_only,true,Analyze policy status distribution
+04,Understanding Existing Data Models,04_existing_data_models/18_analyze_policy_type_distribution.sql,read_only,true,Analyze policy type distribution
+04,Understanding Existing Data Models,04_existing_data_models/19_profile_missing_and_invalid_policy_values.sql,read_only,true,Profile missing and invalid policy values
+04,Understanding Existing Data Models,04_existing_data_models/20_analyze_customer_policy_relationships.sql,read_only,true,Analyze customer and policy relationships
+05,Reporting on Existing Models,05_reporting_on_existing_models/03_monthly_policy_production.sql,read_only,true,Analyze monthly policy production
+05,Reporting on Existing Models,05_reporting_on_existing_models/04_policy_type_performance.sql,read_only,true,Compare insurance policy type performance
+05,Reporting on Existing Models,05_reporting_on_existing_models/05_overall_policy_status_report.sql,read_only,true,Analyze overall policy status distribution
+05,Reporting on Existing Models,05_reporting_on_existing_models/06_top_customers_by_premium.sql,read_only,true,Rank customers by annual premium
+05,Reporting on Existing Models,05_reporting_on_existing_models/07_monthly_production_by_policy_type.sql,read_only,true,Analyze monthly production by policy type
+05,Reporting on Existing Models,05_reporting_on_existing_models/08_premium_distribution_analysis.sql,read_only,true,Analyze policy premium distribution
+05,Reporting on Existing Models,05_reporting_on_existing_models/09_upcoming_policy_expirations.sql,read_only,true,Identify policies approaching expiration
+05,Reporting on Existing Models,05_reporting_on_existing_models/10_customer_policy_reconciliation.sql,read_only,true,Reconcile customer and policy relationships
+07,Dimensional Modeling,07_dimensional_modeling/01_identify_business_process.sql,read_only,true,Analyze the insurance policy issuance business process
+07,Dimensional Modeling,07_dimensional_modeling/02_define_fact_table_grain.sql,read_only,true,Validate the proposed policy fact table grain
+07,Dimensional Modeling,07_dimensional_modeling/03_identify_dimension_candidates.sql,read_only,true,Identify candidate analytical dimensions
+07,Dimensional Modeling,07_dimensional_modeling/04_identify_fact_measures.sql,read_only,true,Identify measurable policy attributes
+07,Dimensional Modeling,07_dimensional_modeling/05_analyze_dimension_cardinality.sql,read_only,true,Analyze candidate dimension cardinality
+07,Dimensional Modeling,07_dimensional_modeling/06_analyze_dimension_relationships.sql,read_only,true,Analyze customer and policy type relationships
+07,Dimensional Modeling,07_dimensional_modeling/07_analyze_date_dimension_requirements.sql,read_only,true,Analyze calendar coverage requirements
+07,Dimensional Modeling,07_dimensional_modeling/08_validate_star_schema_sources.sql,read_only,true,Validate operational sources for the proposed star schema
+06,Transformation Maintenance,06_transformation_maintenance/08_validate_analytics_views.sql,read_only,true,Validate analytical views
+08,Facts and Dimensions,08_facts_and_dimensions/10_validate_warehouse.sql,read_only,true,Validate warehouse dimensions and fact table
+09,Slowly Changing Dimensions,09_slowly_changing_dimensions/02_detect_customer_changes.sql,read_only,true,Detect customer attribute changes
+09,Slowly Changing Dimensions,09_slowly_changing_dimensions/06_validate_scd2_history.sql,read_only,true,Validate SCD Type 2 customer history
+10,Production Transformations,10_production_transformations/07_validate_production_warehouse.sql,read_only,true,Validate production warehouse
+10,Production Transformations,10_production_transformations/08_inspect_latest_etl_run.sql,read_only,true,Inspect latest ETL execution
+10,Production Transformations,10_production_transformations/09_validate_fact_source_reconciliation.sql,read_only,true,Reconcile source policies and warehouse facts
+11,Quality and Optimization,11_quality_and_optimization/03_list_data_quality_issues.sql,read_only,true,List warehouse data quality issues
+11,Quality and Optimization,11_quality_and_optimization/04_summarize_data_quality.sql,read_only,true,Summarize warehouse data quality
+11,Quality and Optimization,11_quality_and_optimization/08_inspect_warehouse_indexes.sql,read_only,true,Inspect warehouse indexes
+11,Quality and Optimization,11_quality_and_optimization/09_inspect_warehouse_constraints.sql,read_only,true,Inspect warehouse constraints
+12,Enterprise Reporting,12_enterprise_reporting/07_top_customer_portfolios.sql,read_only,true,Report top customer portfolios
+12,Enterprise Reporting,12_enterprise_reporting/08_enterprise_kpi_dashboard.sql,read_only,true,Generate enterprise KPI dashboard
+12,Enterprise Reporting,12_enterprise_reporting/09_validate_enterprise_reporting_views.sql,read_only,true,Validate enterprise reporting views

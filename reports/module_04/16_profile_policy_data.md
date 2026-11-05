@@ -1,0 +1,17 @@
+# SQL Execution Report — Module 04
+
+**Module:** Understanding Existing Data Models
+**SQL file:** `04_existing_data_models/16_profile_policy_data.sql`
+**Generated:** 2026-11-05 13:28:37 UTC
+**Rows returned:** 1
+**Execution time:** 0.048377 seconds
+
+## Query Results
+
+| total_policies | unique_policy_numbers | customers_with_policies | total_annual_premium | average_annual_premium | minimum_annual_premium | maximum_annual_premium | total_insured_amount | average_insured_amount | earliest_policy_start | latest_policy_start |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 10 | 10 | 5 | 7590.50 | 759.05 | 180.00 | 1200.00 | 980000.00 | 98000.00 | 2025-01-01 | 2026-06-01 |
+
+---
+
+*Generated automatically by the Enterprise SQL Analytics reporting engine.*

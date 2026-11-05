@@ -1,0 +1,19 @@
+﻿table_name,constraint_name,check_clause
+customers,customers_customer_id_not_null,customer_id IS NOT NULL
+customers,customers_first_name_not_null,first_name IS NOT NULL
+customers,customers_last_name_not_null,last_name IS NOT NULL
+policies,chk_policies_dates,(end_date >= start_date)
+policies,chk_policies_insured_amount,(insured_amount > (0)::numeric)
+policies,chk_policies_premium,(annual_premium >= (0)::numeric)
+policies,chk_policies_status,"((status)::text = ANY ((ARRAY['ACTIVE'::character varying, 'EXPIRED'::character varying, 'CANCELLED'::character varying])::text[]))"
+policies,policies_annual_premium_not_null,annual_premium IS NOT NULL
+policies,policies_created_at_not_null,created_at IS NOT NULL
+policies,policies_customer_id_not_null,customer_id IS NOT NULL
+policies,policies_end_date_not_null,end_date IS NOT NULL
+policies,policies_insured_amount_not_null,insured_amount IS NOT NULL
+policies,policies_policy_id_not_null,policy_id IS NOT NULL
+policies,policies_policy_number_not_null,policy_number IS NOT NULL
+policies,policies_policy_type_not_null,policy_type IS NOT NULL
+policies,policies_start_date_not_null,start_date IS NOT NULL
+policies,policies_status_not_null,status IS NOT NULL
+transaction_demo,transaction_demo_demo_id_not_null,demo_id IS NOT NULL

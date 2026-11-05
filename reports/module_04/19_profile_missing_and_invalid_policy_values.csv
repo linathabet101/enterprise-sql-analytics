@@ -1,0 +1,2 @@
+﻿total_policies,missing_policy_numbers,missing_customer_ids,missing_policy_types,missing_statuses,missing_premiums,missing_insured_amounts,missing_start_dates,missing_end_dates,negative_premiums,nonpositive_insured_amounts,invalid_policy_date_ranges
+10,0,0,0,0,0,0,0,0,0,0,0

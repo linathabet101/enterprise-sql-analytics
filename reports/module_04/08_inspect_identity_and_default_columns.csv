@@ -1,0 +1,6 @@
+﻿table_name,column_name,data_type,is_nullable,column_default,is_identity,identity_generation,identity_start,identity_increment
+customers,customer_id,integer,NO,,YES,ALWAYS,1,1
+customers,created_at,timestamp with time zone,YES,CURRENT_TIMESTAMP,NO,,,
+policies,policy_id,integer,NO,,YES,ALWAYS,1,1
+policies,status,character varying,NO,'ACTIVE'::character varying,NO,,,
+policies,created_at,timestamp with time zone,NO,CURRENT_TIMESTAMP,NO,,,

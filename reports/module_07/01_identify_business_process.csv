@@ -1,0 +1,2 @@
+﻿total_policy_records,distinct_policy_ids,distinct_policy_numbers,distinct_customers,distinct_policy_types,earliest_policy_start,latest_policy_start,total_annual_premium,total_insured_amount
+10,10,10,5,4,2025-01-01,2026-06-01,7590.50,980000.00

@@ -1,0 +1,4 @@
+﻿status,policy_count,percentage_of_policies
+ACTIVE,8,80.00
+CANCELLED,1,10.00
+EXPIRED,1,10.00

@@ -1,0 +1,22 @@
+# SQL Execution Report — Module 09
+
+**Module:** Slowly Changing Dimensions
+**SQL file:** `09_slowly_changing_dimensions/02_detect_customer_changes.sql`
+**Generated:** 2026-11-05 15:18:52 UTC
+**Rows returned:** 6
+**Execution time:** 0.208318 seconds
+
+## Query Results
+
+| customer_id | customer_key | old_first_name | new_first_name | old_last_name | new_last_name | old_email | new_email | change_status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 1 | Luna | Luna | Andersson | Andersson | luna.andersson@example.com | luna.andersson@example.com | NO CHANGE |
+| 2 | 2 | Kai | Kai | Tanaka | Tanaka | kai.tanaka@example.com | kai.tanaka@example.com | NO CHANGE |
+| 3 | 3 | Zara | Zara | Kowalski | Kowalski | zara.kowalski@example.com | zara.kowalski@example.com | NO CHANGE |
+| 4 | 4 | Aarav | Aarav | Sharma | Sharma | aarav.sharma@example.com | aarav.sharma@example.com | NO CHANGE |
+| 5 | 5 | Mohammed | Mohammed | Al-Farsi | Al-Farsi | mohammed.alfarsi@example.com | mohammed.alfarsi@example.com | NO CHANGE |
+| 12 | 6 | Elena | Elena | Petrova | Petrova | elena.petrova@example.com | elena.petrova@example.com | NO CHANGE |
+
+---
+
+*Generated automatically by the Enterprise SQL Analytics reporting engine.*

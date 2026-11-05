@@ -1,0 +1,40 @@
+# SQL Execution Report — Module 04
+
+**Module:** Understanding Existing Data Models
+**SQL file:** `04_existing_data_models/03_inspect_all_constraints.sql`
+**Generated:** 2026-11-05 13:28:36 UTC
+**Rows returned:** 24
+**Execution time:** 0.073762 seconds
+
+## Query Results
+
+| table_schema | table_name | constraint_name | constraint_type |
+| --- | --- | --- | --- |
+| public | customers | customers_customer_id_not_null | CHECK |
+| public | customers | customers_first_name_not_null | CHECK |
+| public | customers | customers_last_name_not_null | CHECK |
+| public | customers | pk_customers | PRIMARY KEY |
+| public | customers | customers_email_key | UNIQUE |
+| public | policies | chk_policies_dates | CHECK |
+| public | policies | chk_policies_insured_amount | CHECK |
+| public | policies | chk_policies_premium | CHECK |
+| public | policies | chk_policies_status | CHECK |
+| public | policies | policies_annual_premium_not_null | CHECK |
+| public | policies | policies_created_at_not_null | CHECK |
+| public | policies | policies_customer_id_not_null | CHECK |
+| public | policies | policies_end_date_not_null | CHECK |
+| public | policies | policies_insured_amount_not_null | CHECK |
+| public | policies | policies_policy_id_not_null | CHECK |
+| public | policies | policies_policy_number_not_null | CHECK |
+| public | policies | policies_policy_type_not_null | CHECK |
+| public | policies | policies_start_date_not_null | CHECK |
+| public | policies | policies_status_not_null | CHECK |
+| public | policies | fk_policies_customers | FOREIGN KEY |
+| public | policies | pk_policies | PRIMARY KEY |
+| public | policies | uq_policies_policy_number | UNIQUE |
+| public | transaction_demo | transaction_demo_demo_id_not_null | CHECK |
+| public | transaction_demo | transaction_demo_pkey | PRIMARY KEY |
+
+---
+
+*Generated automatically by the Enterprise SQL Analytics reporting engine.*

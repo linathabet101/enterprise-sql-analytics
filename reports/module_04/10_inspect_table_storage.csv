@@ -1,0 +1,4 @@
+﻿schemaname,tablename,table_size,indexes_size,total_size
+public,customers,8192 bytes,32 kB,40 kB
+public,policies,8192 bytes,32 kB,40 kB
+public,transaction_demo,0 bytes,8192 bytes,8192 bytes

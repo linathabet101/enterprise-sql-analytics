@@ -1,0 +1,6 @@
+﻿table_name,constraint_name,constraint_type,column_name,ordinal_position
+customers,pk_customers,PRIMARY KEY,customer_id,1
+customers,customers_email_key,UNIQUE,email,1
+policies,pk_policies,PRIMARY KEY,policy_id,1
+policies,uq_policies_policy_number,UNIQUE,policy_number,1
+transaction_demo,transaction_demo_pkey,PRIMARY KEY,demo_id,1

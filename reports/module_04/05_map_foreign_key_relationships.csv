@@ -1,0 +1,2 @@
+﻿constraint_name,referencing_table,referencing_column,referenced_table,referenced_column,ordinal_position
+fk_policies_customers,policies,customer_id,customers,customer_id,1
