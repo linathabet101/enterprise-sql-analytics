@@ -1,11 +1,14 @@
 -- ============================================================
 -- Project: Enterprise SQL Analytics Engineering
 -- Module: 01 - Database Foundations
--- Lesson: 01.2 - Creating Relational Tables
--- Purpose: Create the customers table
+-- Lesson: Creating a Relational Table
+-- File: 05_create_customers_table.sql
+--
+-- Purpose:
+-- Create the customers table if it does not already exist.
 -- ============================================================
 
-CREATE TABLE public.customers (
+CREATE TABLE IF NOT EXISTS public.customers (
     customer_id INTEGER GENERATED ALWAYS AS IDENTITY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
