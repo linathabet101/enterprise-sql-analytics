@@ -1,0 +1,37 @@
+module_id,module_name,sql_file,execution_mode,export_results,description
+01,Database Foundations,01_database_foundations/01_connection_verification.sql,read_only,true,Verify the database connection and PostgreSQL version
+01,Database Foundations,01_database_foundations/02_inspect_database_schemas.sql,read_only,true,Inspect available database schemas
+01,Database Foundations,01_database_foundations/03_inspect_database_tables.sql,read_only,true,Inspect tables in the public schema
+01,Database Foundations,01_database_foundations/04_inspect_database_columns.sql,read_only,true,Inspect database column definitions
+01,Database Foundations,01_database_foundations/06_inspect_customers_table.sql,read_only,true,Inspect the customers table structure
+01,Database Foundations,01_database_foundations/07_inspect_customers_constraints.sql,read_only,true,Inspect customer table constraints
+01,Database Foundations,01_database_foundations/09_query_customers.sql,read_only,true,Retrieve all customer records
+01,Database Foundations,01_database_foundations/16_inner_join_customers_policies.sql,read_only,true,Retrieve customers with their policies
+01,Database Foundations,01_database_foundations/18_left_join_customers_policies.sql,read_only,true,Retrieve all customers including those without policies
+01,Database Foundations,01_database_foundations/19_find_customers_without_policies.sql,read_only,true,Identify customers without policies
+01,Database Foundations,01_database_foundations/20_find_policies_without_customers.sql,read_only,true,Check for policies without matching customers
+01,Database Foundations,01_database_foundations/21_customer_policy_summary.sql,read_only,true,Calculate policy counts and premiums by customer
+01,Database Foundations,01_database_foundations/22_filter_grouped_results_having.sql,read_only,true,Filter grouped customer results using HAVING
+01,Database Foundations,01_database_foundations/23_subquery_policies_above_average.sql,read_only,true,Find policies above the portfolio average premium
+01,Database Foundations,01_database_foundations/24_correlated_subquery_customer_average.sql,read_only,true,Compare policy premiums with each customer's average
+01,Database Foundations,01_database_foundations/28_inspect_database_indexes.sql,read_only,true,Inspect database indexes
+01,Database Foundations,01_database_foundations/29_inspect_identity_columns.sql,read_only,true,Inspect identity columns and sequences
+02,SQL Querying,02_sql_querying/01_select_specific_columns.sql,read_only,true,Retrieve selected customer columns
+03,Advanced SQL,03_advanced_sql/01_basic_cte.sql,read_only,true,Introduction to common table expressions
+03,Advanced SQL,03_advanced_sql/02_multiple_ctes.sql,read_only,true,Combine multiple common table expressions
+03,Advanced SQL,03_advanced_sql/03_recursive_cte_monthly_calendar.sql,read_only,true,Generate a monthly calendar using a recursive CTE
+03,Advanced SQL,03_advanced_sql/04_row_number_per_customer.sql,read_only,true,Number policies within each customer partition
+03,Advanced SQL,03_advanced_sql/05_rank_policies_by_premium.sql,read_only,true,Rank policies by annual premium
+03,Advanced SQL,03_advanced_sql/06_dense_rank_policies.sql,read_only,true,Apply dense ranking to policy premiums
+03,Advanced SQL,03_advanced_sql/07_ntile_premium_groups.sql,read_only,true,Divide policies into premium groups
+03,Advanced SQL,03_advanced_sql/08_lag_previous_policy_premium.sql,read_only,true,Compare premiums with previous policies
+03,Advanced SQL,03_advanced_sql/09_lead_next_policy_premium.sql,read_only,true,Compare premiums with subsequent policies
+03,Advanced SQL,03_advanced_sql/10_running_total_per_customer.sql,read_only,true,Calculate cumulative premiums per customer
+03,Advanced SQL,03_advanced_sql/11_portfolio_running_total.sql,read_only,true,Calculate cumulative portfolio premiums
+03,Advanced SQL,03_advanced_sql/12_moving_average.sql,read_only,true,Calculate moving average policy premiums
+03,Advanced SQL,03_advanced_sql/13_percentage_of_portfolio.sql,read_only,true,Calculate each policy share of portfolio premiums
+03,Advanced SQL,03_advanced_sql/14_first_and_last_value.sql,read_only,true,Retrieve first and last policy values within partitions
+03,Advanced SQL,03_advanced_sql/15_window_aggregates_by_policy_type.sql,read_only,true,Calculate window aggregates by policy type
+03,Advanced SQL,03_advanced_sql/16_top_policy_per_customer.sql,read_only,true,Identify the highest-premium policy per customer
+03,Advanced SQL,03_advanced_sql/17_policy_date_gaps.sql,read_only,true,Analyze gaps between policy dates
+03,Advanced SQL,03_advanced_sql/18_integrated_customer_analysis.sql,read_only,true,Combine advanced SQL techniques in a customer analysis

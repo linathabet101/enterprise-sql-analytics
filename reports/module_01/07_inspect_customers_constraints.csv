@@ -1,0 +1,6 @@
+﻿constraint_name,constraint_type
+customers_customer_id_not_null,CHECK
+customers_first_name_not_null,CHECK
+customers_last_name_not_null,CHECK
+pk_customers,PRIMARY KEY
+customers_email_key,UNIQUE

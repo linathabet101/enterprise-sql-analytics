@@ -1,0 +1,4 @@
+﻿table_schema,table_name,table_type
+public,customers,BASE TABLE
+public,policies,BASE TABLE
+public,transaction_demo,BASE TABLE

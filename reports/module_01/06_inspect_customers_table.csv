@@ -1,0 +1,7 @@
+﻿column_name,data_type,character_maximum_length,is_nullable,column_default
+customer_id,integer,,NO,
+first_name,character varying,50,NO,
+last_name,character varying,50,NO,
+email,character varying,255,YES,
+date_of_birth,date,,YES,
+created_at,timestamp with time zone,,YES,CURRENT_TIMESTAMP
