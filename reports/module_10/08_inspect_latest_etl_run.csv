@@ -1,0 +1,2 @@
+﻿run_id,process_name,started_at,completed_at,status,rows_loaded,error_message
+7,Production Warehouse ETL,2026-11-05 15:43:18.508309,2026-11-05 15:43:18.508309,SUCCESS,10,
